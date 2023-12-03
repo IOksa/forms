@@ -1,0 +1,22 @@
+.pricelistId{
+    width: 10%;
+
+    border: 1px solid  var(--text-color);
+    text-align: center;
+
+}
+.pricelistDescription{
+    width: 70%;
+
+    border: 1px solid  var(--text-color);
+
+}
+
+.pricelistPrice{
+    width: 20%;
+    
+    border: 1px solid  var(--text-color);
+    text-align: center;
+   
+   
+}

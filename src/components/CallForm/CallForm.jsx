@@ -76,6 +76,7 @@ const CallForm = () => {
     return (
         <div className={css.wrapper}>
             <Toaster />
+            <h2>Форма с useState для каждого поля</h2>
             <form className={css.formCall} onSubmit={handleSubmit}>
                 <h3 className={css.formTitle}>
                     Залиште свої дані,
@@ -137,7 +138,7 @@ const CallForm = () => {
                         name="phone"
                         pattern="[+]{1}[0-9]{12}"
                         title="Телефонний номер повинен починатися з '+' та мати 12 цифр"
-                        placeholder="Введіть телефон +XXXXXXXXXXXX"
+                        placeholder="Введіть телефон +380XXXXXXXXX"
                         required
                         value={phone}
                         onChange={handleChange}
