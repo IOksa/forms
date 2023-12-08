@@ -36,7 +36,7 @@ const Form3 = () => {
                 `Ім'я: ${name}\nПрізвище: ${surname}\nТелефон: ${phone}\nПослуга: ${servicethree}\nКоментарій: ${commentthree}`
             );
 
-            setData({name: "", surname: "", phone: "", servicethree: "", commentthree: "", policythree: ""});
+            setData({name: "", surname: "", phone: "", servicethree: "", commentthree: "", policythree: false});
            
         }
     };
