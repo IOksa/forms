@@ -3,15 +3,19 @@ import toast, { Toaster } from "react-hot-toast";
 import Button from "../Button/Button";
 import services from "../../data/services";
 import icons from '../../assets/icons/icons.svg';
+import useLocalStorage from "hooks/useLocalStorage";
 import css from "../CallForm/CallForm.module.css";
 
+const LS_KEY='form';
+
 const Form3 = () => {
-    const [data, setData] = useState({name: "", surname: "", phone: "", servicethree: "", commentthree: "", policythree: ""});
+    const initialValues = {name: "", surname: "", phone: "", servicethree: "", comment: "", policythree:false};
+    const [data, setData] = useLocalStorage (LS_KEY, initialValues);
     const {name, surname, phone, servicethree, commentthree, policythree}=data;
 
     const handleChange = (evt) => {
-        const { name, value } = evt.target;    
-        setData(prevState=>({...prevState, [name]: value}));      
+        const { name, value, type, checked} = evt.target;    
+        setData(prevState=>({...prevState, [name]: type === "checkbox" ? checked : value})); 
      };
 
     const handleSubmit = (e) => {
@@ -22,7 +26,7 @@ const Form3 = () => {
                 duration: 3000,
                 position: "top-center",
             });
-        } else if (policythree!=="on") {
+        } else if (!policythree) {
             toast.error(
                 `Поставте "V" у полі "Погоджуюся з Політикою конфіденційності"`,
                 { duration: 3000, position: "top-center" }
@@ -86,7 +90,7 @@ const Form3 = () => {
                         value={servicethree}
                         onChange={handleChange}
                     >
-                        <option value="" disabled="disabled">
+                        <option value="">
                             Оберіть послугу
                         </option>
                         {services?.length > 0 &&
