@@ -18,3 +18,11 @@
     background-color: var(--secondary-color);
     border: 1px solid var(--accent-color);
 }
+
+.button:disabled {
+    background-color:  var(--disabled-btn-color);
+    border: 1px solid var(--disabled-btn-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: var(--text-color);
+    cursor: not-allowed;
+  }

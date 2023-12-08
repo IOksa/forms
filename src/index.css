@@ -11,6 +11,8 @@
   --text-color: #999999;
   --icon-bg-color: #ffeeed;
   --gooter-text-color: rgba(0, 0, 0, 0.7);
+  --price-bg-color: #FF948D;
+  --disabled-btn-color: #d9dadc;
 }
 
 * {
