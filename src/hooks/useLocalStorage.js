@@ -4,7 +4,9 @@ export default function useLocalStorage(key, defaultValue) {
   const [state, setState] = useState(() => {
     if (typeof window !== 'undefined' && window.localStorage){
       const items=JSON.parse(window.localStorage.getItem(key));
-      return items ?? defaultValue;
+      const forReturn = items ?? defaultValue;
+      console.log ("useLocalStorage forReturn=", forReturn);
+      return forReturn;
     }
     return defaultValue;
     

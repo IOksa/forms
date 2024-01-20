@@ -1,0 +1,66 @@
+.pricelistItemWrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 140px;
+    border-bottom: 1px solid #9a9a9a;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media (min-width: 768px){
+        height: 70px;
+    }
+        
+  
+ 
+}
+.pricelistItemWrapper:hover{
+    transform: scale(1.01);
+    
+}
+
+.pricelistDescription{
+    padding: 0 15px;
+    width: 80%;
+
+
+}
+
+.pricelistItemWrapperEven{
+    composes: pricelistItemWrapper;
+    /* background: linear-gradient(93deg,#e5e5ef -79.24%, rgba(255, 238, 237, 0.00) 88.28%); */
+    background-color: #f1f1f6;
+ 
+}
+
+.pricelistItemWrapperOdd{
+    composes: pricelistItemWrapper;
+    /* background: linear-gradient(97deg, #e5e5ef 4.41%, rgba(255, 255, 255, 0.00) 152%); */
+    background-color: #e5e5ef;
+}
+
+.descriptionText{
+    font-size: 16px;  
+    font-weight: 700;  
+    line-height: 1.4;
+    text-align: right;
+    color: var(--darken-color);
+ 
+}
+
+.priceWrapper{
+    width: 20%;
+    text-align: right;
+    padding-right:15px;
+    
+}
+
+.priceText{
+    color: var(--darken-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.4;
+    @media (min-width: 768px){
+        font-size: 20px;
+    }
+    
+}

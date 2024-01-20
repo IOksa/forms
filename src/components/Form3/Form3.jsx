@@ -12,10 +12,12 @@ const Form3 = () => {
     const initialValues = {name: "", surname: "", phone: "", servicethree: "", comment: "", policythree:false};
     const [data, setData] = useLocalStorage (LS_KEY, initialValues);
     const {name, surname, phone, servicethree, commentthree, policythree}=data;
+    console.log("useLocalStorage data=", data);
 
     const handleChange = (evt) => {
         const { name, value, type, checked} = evt.target;    
-        setData(prevState=>({...prevState, [name]: type === "checkbox" ? checked : value})); 
+        setData(prevState=>({...prevState, [name]: type === "checkbox" ? checked : value}));
+        console.log("handleChange data=", data); 
      };
 
     const handleSubmit = (e) => {
