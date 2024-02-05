@@ -1,15 +1,32 @@
 {
   "files": {
-    "main.css": "/forms/static/css/main.f86d60b7.css",
-    "main.js": "/forms/static/js/main.f2b81388.js",
+    "main.css": "/forms/static/css/main.abc69a32.css",
+    "main.js": "/forms/static/js/main.5c15a202.js",
+    "static/media/slider_8.jpg": "/forms/static/media/slider_8.68f76c45171e47328d68.jpg",
+    "static/media/slider_13.jpg": "/forms/static/media/slider_13.33bfcf6188372e92a2dd.jpg",
+    "static/media/slider_6.jpg": "/forms/static/media/slider_6.336be0e0c24dd18e7f6b.jpg",
+    "static/media/slider_4.jpg": "/forms/static/media/slider_4.1c67029ed3ec235f52f5.jpg",
+    "static/media/slider_5.jpg": "/forms/static/media/slider_5.deaa9c753c6405797cd8.jpg",
+    "static/media/slider_11.jpg": "/forms/static/media/slider_11.0650d96f9e276db0c2e2.jpg",
+    "static/media/slider_10.jpg": "/forms/static/media/slider_10.8dc1895ca56bc95dc024.jpg",
+    "static/media/slider_3.jpg": "/forms/static/media/slider_3.16ada1b303cd3ce318ea.jpg",
+    "static/media/slider_1.jpg": "/forms/static/media/slider_1.fa9a337434444735e07a.jpg",
+    "static/media/slider_9.jpg": "/forms/static/media/slider_9.53dac8770ea50688b45d.jpg",
+    "static/media/slider_2.jpg": "/forms/static/media/slider_2.a2ac2a94facd9a487fad.jpg",
+    "static/media/slider_17.jpg": "/forms/static/media/slider_17.9ac22f831b448dc389ff.jpg",
+    "static/media/slider_7.jpg": "/forms/static/media/slider_7.83e58a425c22ba653e25.jpg",
+    "static/media/slider_12.jpg": "/forms/static/media/slider_12.d0c05677fd4b5beb98ee.jpg",
+    "static/media/slider_16.jpg": "/forms/static/media/slider_16.6743c8282a61fcecf8cd.jpg",
+    "static/media/slider_15.jpg": "/forms/static/media/slider_15.19390fe55d204b7fed22.jpg",
+    "static/media/slider_14.jpg": "/forms/static/media/slider_14.0166af21b9821c6a8b5f.jpg",
     "static/media/selectarrow.png": "/forms/static/media/selectarrow.e905ccbe6f4d66345f1d.png",
     "static/media/icons.svg": "/forms/static/media/icons.c4943e6a6c33ac2d44188f78139fe52b.svg",
     "index.html": "/forms/index.html",
-    "main.f86d60b7.css.map": "/forms/static/css/main.f86d60b7.css.map",
-    "main.f2b81388.js.map": "/forms/static/js/main.f2b81388.js.map"
+    "main.abc69a32.css.map": "/forms/static/css/main.abc69a32.css.map",
+    "main.5c15a202.js.map": "/forms/static/js/main.5c15a202.js.map"
   },
   "entrypoints": [
-    "static/css/main.f86d60b7.css",
-    "static/js/main.f2b81388.js"
+    "static/css/main.abc69a32.css",
+    "static/js/main.5c15a202.js"
   ]
 }
