@@ -1,7 +1,6 @@
 import React from "react";
 import toast, { Toaster } from "react-hot-toast";
 import Button from "../Button/Button";
-// import services from "../../data/services";
 import useLocalStorage from "hooks/useLocalStorage";
 import icons from '../../assets/icons/icons.svg';
 import css from "../CallForm/CallForm.module.css";

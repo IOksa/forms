@@ -1,0 +1,12 @@
+.swiperWrapper{
+    /* margin-top: 100px; */
+    position: relative;
+    height: 800px;
+
+}
+
+
+.image {
+    display: block;
+    width: 100%;
+}
